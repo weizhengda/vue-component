@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import prop from '@/pages/api/prop'
+import Api from '@/pages/Api'
+import fatherToChild from '../components/api/prop/fatherToChild/fatherToChild'
+import childToFather from '../components/api/prop/childToFather/childToFather'
 
 Vue.use(Router)
 
@@ -9,8 +10,18 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'prop',
-      component: prop
+      component: Api,
+      direction: '/child-to-father',
+      children: [
+        {
+          path: 'child-to-father',
+          component: childToFather
+        },
+        {
+          path: 'father-to-child',
+          component: fatherToChild
+        }
+      ]
     }
   ]
 })

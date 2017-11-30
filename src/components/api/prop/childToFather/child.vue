@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="child">
+    <p>子组件</p>
     <input type="text" v-model="msg" @change="onInput">
   </div>
 </template>

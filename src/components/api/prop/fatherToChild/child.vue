@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="child">
+    <p>子组件</p>
     <p>{{inputValue}}</p>
   </div>
 </template>
@@ -13,3 +14,5 @@
         }
     }
 </script>
+
+
