@@ -13,7 +13,7 @@
     },
     methods: {
       recieveMessage: function (text) {
-        console.log('监听到子组件变化'+text);
+        alert('监听到子组件变化'+text);
       }
     }
   }

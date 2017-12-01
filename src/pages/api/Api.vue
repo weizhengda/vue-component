@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import navLeft from "../components/my/nav/NavLeft";
+import navLeft from "../../components/my/nav/NavLeft";
 export default {
   name: "home",
   components: {

@@ -2,7 +2,7 @@
   <div id="navTop">
        <ul>
           <li><router-link to="/">组件API</router-link></li>
-          <li><router-link to="home">自定义组件</router-link></li>
+          <li><router-link to="/myComp">自定义组件</router-link></li>
        </ul>
   </div>
 </template>

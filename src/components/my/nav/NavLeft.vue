@@ -4,6 +4,8 @@
         <dt>prop</dt>
         <dd><router-link to="/child-to-father">child-to-father</router-link></dd>
         <dd><router-link to="/father-to-child">father-to-child</router-link></dd>
+        <dt>async</dt>
+        <dd><router-link to="/asyncComp">asyncComp</router-link></dd>
     </dl>
   </div>
 </template>
