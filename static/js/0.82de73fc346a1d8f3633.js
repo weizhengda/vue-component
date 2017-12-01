@@ -1,0 +1,2 @@
+webpackJsonp([0],{w8Kk:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var r={name:"asyncComp"},s=function(){var e=this,n=e.$createElement;e._self._c;return e._m(0,!1,!1)},a=[function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"async"},[t("h2",[e._v("这是一个异步组件")])])}],c={render:s,staticRenderFns:a},l=c,u=t("/Xao"),i=u(r,l,!1,null,null,null);n.default=i.exports}});
+//# sourceMappingURL=0.82de73fc346a1d8f3633.js.map
